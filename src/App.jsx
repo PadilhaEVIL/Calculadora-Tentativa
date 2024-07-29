@@ -38,14 +38,14 @@ const Calculadora = () => {
     <div className='body'>
       <div>
         <h1>Calculadora</h1>
-        <p>Digite um número:</p>
+        <p>Digite Um Número:</p>
         <input 
           type="number" 
           value={numero1} 
           onChange={(e) => setNumero1(e.target.value)} 
         />
         <br /><br />
-        <p>Digite outro número:</p>
+        <p>Digite Outro Número:</p>
         <input 
           type="number" 
           value={numero2} 
